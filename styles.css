@@ -308,10 +308,10 @@ footer{
     font-weight: bold;
     margin: 0 20px;
 }
-.home-section .slide.active img .home-content span {
+.home-section .slide.active .home-content .calendar-inline {
     opacity: 0;
     animation: fadeInTop 1s ease forwards;
-    animation-delay: 1.1s;
+    animation-delay: 1.2s;
 
 }
 @media (max-width: 767px) {
