@@ -193,7 +193,7 @@ footer{
 
 /* home section */
 .home-section{
-    min-height: 100vh;
+    min-height:100vh;
    
 }
 .home-section .slide{
@@ -233,7 +233,7 @@ footer{
     padding:0 15px;
     text-align:center;
 }
-.home-section .home-content p{
+.home-section .home-content .information-msg{
     font-size: 30px;
     color:#ffffff;
     margin: 0 0 20px;
@@ -251,7 +251,7 @@ footer{
         opacity:1;
         transform:translateY(0px)
     }
-}
+} 
 .home-section .home-content h1{
     font-size: 68px;
     color:#ffffff;
@@ -265,6 +265,7 @@ footer{
     animation-delay: 0.6s;
 
 }
+
 
 
 .calendar-inline {
@@ -363,6 +364,45 @@ footer{
     }
 }
 
+/* time duration section */
+.countdown {
+    margin-top: 40px;
+    width: 100%;
+
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.countdown h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#time-duration {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.time-box {
+    padding: 10px;
+    background: #e1f5fe;
+    border-radius: 8px;
+    width: 70px;
+}
+
+.time-box span {
+    display: block;
+    font-size: 28px;
+    color: rgb(199, 23, 53);
+}
+
+.time-box p {
+    margin: 0;
+    color: rgb(199, 23, 53);
+    font-size: 16px;
+}
+
 /* Couple section */
 .couple-section{
     padding:80px 0 80px;
@@ -375,7 +415,12 @@ footer{
     text-align: center;
     position:relative;
 }
-@media (min-width: 576px) {
+.couple-section .couple img {
+    max-width: 300px;
+    height: 250px;
+    border-radius: 50%;
+}
+@media (min-width: 576px ){
 .couple-section .couple:nth-child(2):before{
     content: '';
     position:absolute;
@@ -413,11 +458,7 @@ footer{
     bottom: 5px;
 
 }
-}
-.couple-section .couple img{
-    max-width:300px;
-    height:250px;
-    border-radius: 50%;
+
 }
 @media (max-width: 576px) {
     .couple-section .couple {
@@ -618,9 +659,10 @@ footer{
  }
 
  .event-venue h3 {
-     font-size: 30px;
-     padding:10px;border-bottom: 1px solid #ffffff;
-    margin: 0 100px 25px;
+     font-size: 36px;
+     padding:10px;
+     border-bottom:1px solid #ffffff;
+     margin:0 100px 25px;
  }
 
  .event-venue span {
@@ -671,7 +713,8 @@ footer{
 }
 .event-venue .location-link .location-text i {
     margin-left: 5px;
-    color: rgb(199, 23, 53)
+    color:rgb(199, 23, 53)
+    
 }
 
 .event-venue .location-link .location-text:hover {
@@ -747,17 +790,16 @@ footer{
     }
          
     .event-venue h3 {   
+        border-bottom: 1px solid #cccccc;
         margin: 0 50px 20px;
+        font-size:30px;
         
 
 
 }
- .event-venue p {
-     margin-bottom: 10px;
-     font-size: 20px;
-
- }
-
+    .event-venue p {
+        font-size: 20px;
+}
 }
 /* family section */
 .family-section{
@@ -817,7 +859,6 @@ footer{
         font-size: 15px;
     }
 }
-
 /* gallery section */
 .gallery-section{
     padding: 80px 0 80px ;
@@ -865,7 +906,7 @@ footer{
     font-size: 20px;
     font-style:italic ;
     line-height: 1.6;
-    
+   
 }
 .footer-regarding {
     font-size: 20px;
@@ -928,7 +969,7 @@ footer{
 @media (max-width: 468px) {
     .footer-msg p {
         font-size: 15px;
-        margin:0 20px;
+        margin: 20px;
         }
     .footer-regarding h2 {
         font-size: 35px;
