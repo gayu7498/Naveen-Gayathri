@@ -364,43 +364,22 @@ footer{
     }
 }
 
-/* time duration section */
-.countdown {
-    margin-top: 40px;
-    width: 100%;
+/* time duration */
+.box {
 
+    padding: 30px;
+    border-radius: 20px;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.countdown h2{
-    color: #ffffff;
+
+h1 {
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
-#time-duration {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.time-box {
-    padding: 10px;
-    background: #e1f5fe;
-    border-radius: 8px;
-    width: 70px;
-}
-
-.time-box span {
-    display: block;
-    font-size: 28px;
-    color: rgb(199, 23, 53);
-}
-
-.time-box p {
-    margin: 0;
-    color: rgb(199, 23, 53);
-    font-size: 16px;
+#marriage-time {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* Couple section */
